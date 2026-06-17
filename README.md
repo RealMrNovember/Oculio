@@ -12,6 +12,44 @@ Just look and read.
 
 ---
 
+# Project Status
+
+**Current stage:** Planning & architecture (no application code yet)
+
+**Next step:** Phase 0 — eye-assisted reading prototype on a real device. See `GETTING_STARTED.md`.
+
+---
+
+# Documentation
+
+| Document | Description |
+|----------|-------------|
+| `GETTING_STARTED.md` | How to build — week-by-week plan |
+| `MVP_SCOPE.md` | What ships in Phase 0 and Phase 1 |
+| `ROADMAP.md` | Revised phased timeline |
+| `ARCHITECTURE.md` | System design (resolved stack decisions) |
+| `PROJECT_STRUCTURE.md` | Monorepo layout |
+| `DATA_MODEL.md` | Database schema |
+| `API_SPEC.md` | REST API (Phase 1) |
+| `TECHNICAL_CONSTRAINTS.md` | Eye tracking limits & honest expectations |
+| `RISKS_AND_MITIGATIONS.md` | Risk register |
+| `LEGAL_AND_PRIVACY.md` | GDPR, copyright, biometric consent |
+| `COPYRIGHT_AND_UPLOAD_PIPELINE.md` | BYOD, DMCA, Private Vault vs Public Feed |
+| `EYE_TRACKING.md` | Eye tracking pipeline |
+| `VAULT.md` | Cloud library & storage |
+| `OCR_ENGINE.md` | OCR pipeline (Phase 3) |
+| `AI_ENGINE.md` | Lumentum & AI features |
+| `SOCIAL_READING.md` | Social network (Phase 2) |
+| `BOOK_UNIVERSE.md` | AI book graphs (Phase 3) |
+| `USER_EXPERIENCE.md` | UI screens |
+| `SECURITY.md` | Auth & protection |
+| `DEPLOYMENT.md` | Infra & CI/CD |
+| `MONETIZATION.md` | Pricing tiers |
+| `ENTERPRISE.md` | Corporate offering |
+| `FUTURE_VISION.md` | AR, XR, hardware |
+
+---
+
 # Vision
 
 Oculio is not simply an e-book application.
@@ -425,6 +463,7 @@ Protection:
 * Social Feed
 * Standard Reading
 * 3 Document Uploads
+* 100 MB Cloud Storage
 
 ---
 
