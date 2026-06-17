@@ -3,30 +3,34 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:oculio_mobile/models/tracking_state.dart';
 
-/// Hybrid WPM auto-scroll modulated by gaze-proxy multiplier from face tracking.
+/// Applies gaze-driven velocity only — never continuous WPM while face is visible.
 class FlowScrollEngine {
   FlowScrollEngine({
     required this.scrollController,
-    this.baseWpm = 200,
     this.fontSize = 20,
     this.lineHeight = 1.6,
   });
 
   final ScrollController scrollController;
-  double baseWpm;
   final double fontSize;
   final double lineHeight;
 
   Timer? _timer;
-  TrackingState _tracking = const TrackingState(isPaused: true);
+  TrackingState _tracking = const TrackingState();
   bool _userOverride = false;
   DateTime? _overrideUntil;
+  DateTime? _lastVelocityAt;
 
   static const int _tickMs = 50;
 
+  double get _lineHeightPx => fontSize * lineHeight;
+
   void updateTracking(TrackingState tracking) {
     _tracking = tracking;
-    if (!tracking.isPaused) {
+    if (tracking.scrollVelocityPxPerSec != 0) {
+      _lastVelocityAt = DateTime.now();
+    }
+    if (!tracking.isPaused && tracking.gazeZone == GazeZone.fixating) {
       _userOverride = false;
     }
   }
@@ -60,12 +64,16 @@ class FlowScrollEngine {
 
     if (_tracking.isPaused) return;
 
-    final pixelsPerWord = fontSize * lineHeight * 0.45;
-    final wordsPerSecond = baseWpm / 60;
-    final basePixelsPerSecond = wordsPerSecond * pixelsPerWord;
-    final speed = basePixelsPerSecond * _tracking.scrollSpeedMultiplier;
-    final delta = speed * (_tickMs / 1000);
+    var velocity = _tracking.scrollVelocityPxPerSec;
+    if (_lastVelocityAt != null &&
+        DateTime.now().difference(_lastVelocityAt!) >
+            const Duration(milliseconds: 100)) {
+      velocity = 0;
+    }
 
+    if (velocity == 0) return;
+
+    final delta = velocity * (_tickMs / 1000);
     final maxScroll = scrollController.position.maxScrollExtent;
     final next = (scrollController.offset + delta).clamp(0.0, maxScroll);
     if (next >= maxScroll) {
@@ -74,6 +82,8 @@ class FlowScrollEngine {
     }
     scrollController.jumpTo(next);
   }
+
+  double get lineHeightPx => _lineHeightPx;
 
   void dispose() {
     stop();

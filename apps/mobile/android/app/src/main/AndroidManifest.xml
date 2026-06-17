@@ -4,7 +4,7 @@
     <uses-feature android:name="android.hardware.camera.front" android:required="false" />
 
     <application
-        android:label="Oculio Phase 0"
+        android:label="Oculio"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -13,10 +13,10 @@ Eye-assisted reading prototype for **Android physical devices**.
 
 ## Prerequisites
 
-1. [Flutter SDK](https://docs.flutter.dev/get-started/install) 3.22+ (stable)
-2. Android Studio + Android SDK (API 35)
-3. USB debugging enabled on your phone
-4. **Physical device** (emulator front-camera ML testing is unreliable)
+1. Flutter SDK at `C:\Users\Captain\flutter` (added to user PATH)
+2. Android SDK at `C:\Users\Captain\Android\Sdk` (`ANDROID_HOME`)
+3. JDK 17 at `C:\Users\Captain\jdk-17` (`JAVA_HOME`)
+4. USB debugging enabled on your **physical** Android phone
 
 ## First-time setup
 

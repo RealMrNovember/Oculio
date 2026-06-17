@@ -6,6 +6,25 @@ enum PauseReason {
   manual,
 }
 
+enum ReadingMode {
+  /// Gaze-proxy scroll — moves only on look-down.
+  eyeAssist,
+
+  /// ML unavailable — manual scroll only.
+  wpmFallback,
+
+  manual,
+}
+
+enum GazeZone {
+  calibrating,
+  fixating,
+  holding,
+  advance,
+  regress,
+  cooldown,
+}
+
 class TrackingState {
   const TrackingState({
     this.faceDetected = false,
@@ -16,8 +35,15 @@ class TrackingState {
     this.rightEyeOpenProbability = 1,
     this.isPaused = true,
     this.pauseReason = PauseReason.manual,
-    this.scrollSpeedMultiplier = 1,
+    this.scrollVelocityPxPerSec = 0,
+    this.gazeZone = GazeZone.holding,
     this.isProcessing = false,
+    this.pipelineStatus = 'idle',
+    this.facesInFrame = 0,
+    this.readingMode = ReadingMode.eyeAssist,
+    this.framesProcessed = 0,
+    this.gazeScore = 0,
+    this.eyeNormalizedY = 0,
   });
 
   final bool faceDetected;
@@ -28,8 +54,15 @@ class TrackingState {
   final double rightEyeOpenProbability;
   final bool isPaused;
   final PauseReason pauseReason;
-  final double scrollSpeedMultiplier;
+  final double scrollVelocityPxPerSec;
+  final GazeZone gazeZone;
   final bool isProcessing;
+  final String pipelineStatus;
+  final int facesInFrame;
+  final ReadingMode readingMode;
+  final int framesProcessed;
+  final double gazeScore;
+  final double eyeNormalizedY;
 
   double get averageEyeOpen =>
       (leftEyeOpenProbability + rightEyeOpenProbability) / 2;
@@ -43,8 +76,15 @@ class TrackingState {
     double? rightEyeOpenProbability,
     bool? isPaused,
     PauseReason? pauseReason,
-    double? scrollSpeedMultiplier,
+    double? scrollVelocityPxPerSec,
+    GazeZone? gazeZone,
     bool? isProcessing,
+    String? pipelineStatus,
+    int? facesInFrame,
+    ReadingMode? readingMode,
+    int? framesProcessed,
+    double? gazeScore,
+    double? eyeNormalizedY,
   }) {
     return TrackingState(
       faceDetected: faceDetected ?? this.faceDetected,
@@ -57,9 +97,16 @@ class TrackingState {
           rightEyeOpenProbability ?? this.rightEyeOpenProbability,
       isPaused: isPaused ?? this.isPaused,
       pauseReason: pauseReason ?? this.pauseReason,
-      scrollSpeedMultiplier:
-          scrollSpeedMultiplier ?? this.scrollSpeedMultiplier,
+      scrollVelocityPxPerSec:
+          scrollVelocityPxPerSec ?? this.scrollVelocityPxPerSec,
+      gazeZone: gazeZone ?? this.gazeZone,
       isProcessing: isProcessing ?? this.isProcessing,
+      pipelineStatus: pipelineStatus ?? this.pipelineStatus,
+      facesInFrame: facesInFrame ?? this.facesInFrame,
+      readingMode: readingMode ?? this.readingMode,
+      framesProcessed: framesProcessed ?? this.framesProcessed,
+      gazeScore: gazeScore ?? this.gazeScore,
+      eyeNormalizedY: eyeNormalizedY ?? this.eyeNormalizedY,
     );
   }
 }

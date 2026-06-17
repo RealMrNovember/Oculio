@@ -1,7 +1,7 @@
 name: oculio_mobile
 description: Oculio Phase 0 — eye-assisted reading prototype (Android)
 publish_to: "none"
-version: 0.1.0+1
+version: 0.1.0+2
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
@@ -9,7 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  camera: ^0.11.0+2
+  # Camera2 backend — broad device support; avoids CameraX preview+stream conflicts.
+  camera: ^0.10.6
   google_mlkit_commons: ^0.9.0
   google_mlkit_face_detection: ^0.12.0
   permission_handler: ^11.3.1
