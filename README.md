@@ -1,474 +1,369 @@
-OCULIO
-The Intelligent Reading Universe
+# 👁️ OCULIO
 
-Mekandan bağımsız.
-Sınırsız.
-Yapay zeka destekli.
-Sosyal.
-Akıllı okuma deneyimi.
+> **Read With Your Eyes. Learn With AI. Share With The World.**
 
-1. PROJE VİZYONU
+A next-generation intelligent reading ecosystem that combines Eye Tracking, Artificial Intelligence, Social Reading and Personal Knowledge Management into a seamless experience.
 
-Oculio;
+No scrolling.
 
-Göz takibi teknolojisi,
-yapay zeka,
-kişisel bulut,
-sosyal medya
-ve dijital yayıncılığı
+No page turning.
 
-tek bir platform altında birleştiren
-dünyanın ilk tam kapsamlı
-Intelligent Reading Ecosystem'idir.
+Just look and read.
 
-Amaç:
+---
 
-Okuma deneyimini;
+# Vision
 
-❌ Sayfa çevirmekten
+Oculio is not simply an e-book application.
 
-❌ Parmak kaydırmaktan
+It is an **Intelligent Reading Universe** designed to transform the reading experience through:
 
-❌ Fiziksel sınırlardan
+* Eye Tracking Technology
+* Artificial Intelligence
+* Social Reading Network
+* Personal Knowledge Vault
+* AI Reading Coach
+* Smart Document Processing
 
-çıkarıp;
+Our mission is to remove physical limitations from reading and create a smarter, more immersive, and more social reading ecosystem.
 
-✅ Göz ile yönetilen
+---
 
-✅ AI destekli
+# Core Philosophy
 
-✅ Sosyal
+Traditional Reading:
 
-✅ Geliştirici
-
-✅ Kişiselleştirilmiş
-
-bir deneyime dönüştürmek.
-
-2. TEMEL MODÜLLER
-2.1 Oculio Flow™
-
-Akıllı Okuma Motoru
-
-Tamamen göz ile çalışan okuma sistemi.
-
-Kullanıcı:
-
-Kitabı açar
-Ekrana bakar
-Okumaya başlar
-
-Ve:
-
-Satır sonunda otomatik scroll
-Göz kayınca otomatik duraklatma
-Kafa sallansa bile sabit ekran
-Okuma hızına göre uyarlanabilir hız
-Smart Eye Tracking
-
-ML Kit / Vision Framework
-
-Özellikler:
-
-Pupil Detection
-Gaze Estimation
-Reading Line Detection
-Eye Fixation Tracking
-Blink Detection
-Focus Recognition
-Smart Pause™
-
-Kullanıcı:
-
-Telefonu kapattığında
-
-Etrafına baktığında
-
-Gözünü ekrandan çektiğinde
+* Turn pages
+* Scroll manually
+* Read alone
+* Limited interaction
 
 Oculio:
 
-"Okuma durduruldu"
+* Read with your eyes
+* AI-assisted understanding
+* Social reading experiences
+* Personalized learning
+* Cloud-based knowledge management
 
-otomatik olarak bekler.
+---
 
-Anti Motion Engine™
+# Main Modules
 
-Araçta:
+## Oculio Flow™
 
-Otobüs
+The intelligent reading engine.
 
-Uçak
+Features:
 
-Tren
+* Eye Tracking
+* Smart Scroll
+* Smart Pause
+* Anti Motion Engine
+* Infinite Reading
+* Reading Speed Analysis
+* Focus Detection
 
-Gemide
+---
 
-veya yürürken:
+## Smart Eye Tracking
 
-Jiroskop:
+The system detects:
 
-Titremeyi ölçer
-Ekranı stabilize eder
-Metni sabit tutar
-Smooth Infinite Reading
+* Eye Position
+* Reading Line
+* Eye Fixation
+* Blink Events
+* Focus State
+* Reading Progress
 
-Metin:
+Supported technologies:
 
-Sayfa sayfa değil
+Android:
 
-sonsuz bir akış şeklinde akar.
+* Google ML Kit Face Mesh
+* MediaPipe Face Landmarker
 
-Instagram feed hissi.
+iOS:
 
-Ama kitap için.
+* Apple Vision Framework
 
-3. LUMENTUM™
+---
+
+## Smart Pause™
+
+When the user:
+
+* Looks away
+* Loses focus
+* Locks the device
+
+Reading pauses automatically.
+
+---
+
+## Anti Motion Engine™
+
+Optimized for:
+
+* Buses
+* Trains
+* Aircraft
+* Ships
+* Walking
+
+Using:
+
+* Gyroscope
+* Accelerometer
+* Motion Stabilization
+
+Text remains visually stable during movement.
+
+---
+
+## Infinite Reading
+
+No pages.
+
+No interruptions.
+
+Content flows continuously with smooth animations.
+
+---
+
+# Lumentum™
 
 AI Reading Coach
 
-Bu kısım bence Oculio'nun en güçlü özelliği olacak.
+The AI continuously measures:
 
-Sadece kitap okutmaz.
+* Words Per Minute
+* Eye Fatigue
+* Attention Span
+* Focus Duration
+* Regression Count
+* Reading Efficiency
 
-Seni geliştirir.
+Then creates:
 
-AI sürekli analiz eder:
+* Daily Challenges
+* Speed Reading Exercises
+* Focus Training
+* Peripheral Vision Training
+* Memory Exercises
 
-Dakikadaki kelime
-Geri dönüş sayısı
-Göz yorgunluğu
-Konsantrasyon
-Zorlanılan kelimeler
-Anlama seviyesi
+---
 
-Sonra:
+# Emotion Reading™
 
-Günlük egzersizler verir:
+AI understands reading emotions through eye movement:
 
-Örneğin:
+* Interested
+* Curious
+* Bored
+* Tired
+* Frustrated
+* Excited
 
-"Bugün 13 dakika odak çalışması"
+Example:
 
-"Peripheral Vision Training"
+"You seem tired.
 
-"Rapid Recognition"
+Would you like Ambient Reading Mode?"
 
-"Focus Challenge"
+---
 
-Kullanıcı:
+# Ambient Reading™
 
-7 günde %11
+Immersive reading environments:
 
-30 günde %38
+* Rain
+* Forest
+* Train
+* Space
+* Library
 
-okuma hızını arttırabilir.
+Features:
 
-4. BYOD
+* Animated backgrounds
+* Ambient sounds
+* Full screen mode
+* Focus enhancement
 
-Bring Your Own Documents
+---
 
-Kullanıcı şunları yükleyebilir:
+# Book Universe™
 
-PDF
+Every book becomes an interactive world.
 
-EPUB
+AI automatically creates:
 
-DOCX
+* Character Tree
+* Timeline
+* Family Tree
+* Relationship Graph
+* World Map
+* Important Quotes
+* Important Events
 
-TXT
+---
 
-Markdown
+# Vault™
 
-Powerpoint
+Personal Cloud Storage
 
-Research Papers
+Supported formats:
 
-Academic Notes
+* PDF
+* EPUB
+* DOCX
+* TXT
+* PPTX
+* Markdown
+* Research Papers
+* Images
+* Voice Notes
 
-Smart OCR
+---
 
-Taratılmış PDF ise:
+# OCR Engine
 
-AI:
+Scanned documents are:
 
-Resmi metne dönüştürür.
+* Recognized
+* Converted to text
+* Structured automatically
+* Adapted to Oculio Flow™
 
-Paragrafları ayırır.
+---
 
-Başlıkları bulur.
+# Social Reading Network
 
-Ve:
+Share:
 
-Oculio Flow'a uygun hale getirir.
+* Quotes
+* Reading Progress
+* Reviews
+* Notes
+* Collections
+* Achievements
 
-5. VAULT
+Create:
 
-Kişisel Bulut
+* Reading Lists
+* Book Collections
+* Personalized Playlists
 
-Her kullanıcıya:
+---
 
-5GB ücretsiz
+# Reading Rooms™
 
-Premium:
+Live reading communities.
 
-500GB+
+Examples:
 
-Destek:
+Dune Readers
 
-PDF
+127 Online
 
-Images
+Atomic Habits
 
-Notes
+291 Online
 
-Bookmarks
+Users can:
 
-Voice Notes
+* Read together
+* Discuss chapters
+* Share notes
+* Exchange ideas
 
-Highlights
+---
 
-Collections
+# Spoiler Shield™
 
-6. SOCIAL READING NETWORK
+Spoilers are blurred.
 
-Bence proje burada bambaşka seviyeye çıkıyor.
+Readers decide when to reveal them.
 
-Reading Feed
-
-Kullanıcı paylaşabilir:
-
-Bugün ne okuduğunu
-
-Bir paragraf
-
-Bir alıntı
-
-Bir düşünce
-
-Kitap puanı
-
-Okuma süresi
-
-Paylaşım örneği:
-
-"Dune"
-
-Bugün %43 tamamlandı.
-
-Fear is the mind killer.
-
-★★★★★
-
-3 saat 12 dk
-
-Instagram gibi.
-
-Ama tamamen okuyan insanlar için.
-
-7. SPOILER SHIELD™
-
-Mükemmel özellik.
-
-Örnek:
-
-Harry Potter incelemesi.
-
-Spoiler içeren kısım:
+Example:
 
 ████████████
 
-bulanık görünür.
+Tap to reveal spoiler.
 
-Kullanıcı:
+---
 
-"Tıklayarak Göster"
+# Book Gifting™
 
-derse açılır.
+Gift:
 
-8. READING PLAYLISTS
+* Books
+* Premium Membership
+* Collections
+* Private Documents
 
-Kullanıcı:
+Delivered with animated gift opening experiences.
 
-Kitap listesi oluşturur.
+---
 
-Örnek:
+# Technology Stack
 
-✈ Long Flights
-
-Atomic Habits
-Dune
-Sapiens
-
-💰 Entrepreneur Mindset
-
-Zero to One
-Lean Startup
-Psychology of Money
-
-🛡 Cyber Security
-
-Linux Basics
-Metasploit
-Red Teaming
-
-Diğer kullanıcılar:
-
-Takip eder.
-
-Kaydeder.
-
-Beğenir.
-
-9. GIFTING SYSTEM
-
-Bence inanılmaz viral olur.
-
-Kullanıcı:
-
-Birine:
-
-Kitap
-
-Premium üyelik
-
-Özel belge
-
-Koleksiyon
-
-hediye edebilir.
-
-Animasyon:
-
-Dijital hediye kutusu gelir.
-
-Dokunur.
-
-Açılır.
-
-İçinden kitap çıkar.
-
-Müzik çalar.
-
-10. AI BOOK ASSISTANT
-
-Okurken:
-
-Bir kelimeye bakıp:
-
-"Bu ne?"
-
-diyebilir.
-
-AI:
-
-Anlamını açıklar.
-
-Özet çıkarır.
-
-Karakterleri anlatır.
-
-Tarihsel arka plan verir.
-
-Önemli noktaları listeler.
-
-Örneğin:
-
-Sapiens okurken:
-
-"Neolithic Revolution nedir?"
-
-AI anında açıklar.
-
-11. MARKETPLACE
-
-Yazarlar:
-
-PDF
-
-Roman
-
-Araştırma
-
-Makale
-
-Özel koleksiyon
-
-satabilir.
-
-Gelir:
-
-%15 komisyon
-
-12. PREMIUM
-Basic
-
-Ücretsiz
-
-Göz takibi
-Sosyal ağ
-3 PDF
-Standart okuma
-Premium
-
-Aylık abonelik
-
-Sınırsız:
-
-PDF
-EPUB
-Bulut
-AI Coach
-OCR
-Hız analizi
-Gelişmiş istatistik
-Özel temalar
-13. TEKNİK MİMARİ
-Mobile
+## Mobile
 
 Flutter
 
-Android
-iOS
-Web
+Cross-platform:
 
-React + Vite
+* Android
+* iOS
+* Desktop
+* Web
 
-API
+---
 
-Laravel 12
+## Web
 
-REST API
+React
 
-JWT
+Vite
 
-Sanctum
+TailwindCSS
 
-Queue
+Framer Motion
 
-Real Time
+---
 
-Node.js
+## Backend
+
+NestJS
+
+Features:
+
+* REST API
+* WebSockets
+* Modular Architecture
+* AI Services Integration
+
+---
+
+## Real Time
 
 Socket.io
 
-Database
+Redis Adapter
+
+---
+
+## Database
 
 PostgreSQL
 
-Cache
-
 Redis
 
-Storage
+---
 
-Cloudflare R2
-
-veya
-
-AWS S3
-
-AI
+## AI
 
 Google ML Kit
 
@@ -476,75 +371,198 @@ Apple Vision
 
 Gemini API
 
-Container
+Custom AI Models
+
+---
+
+## Storage
+
+Cloudflare R2
+
+AWS S3
+
+---
+
+## Infrastructure
 
 Docker
 
 Docker Compose
 
-Reverse Proxy
-
 Nginx
 
-14. GÜVENLİK
-JWT Authentication
-Device Fingerprint
-Two Factor Authentication
-Face ID
-Apple Sign In
-Google Login
-Cloudflare WAF
-Rate Limiter
-AES256 File Encryption
-Signed URLs
-Anti Piracy System
-15. GELECEK ÖZELLİKLER
-Oculio Glass
+Ubuntu Server
 
-AR gözlük.
+Cloudflare CDN
 
-Kullanıcı:
+---
 
-Önündeki gerçek dünyayı görürken
+# Security
 
-Kitap görüş alanında akar.
+Authentication:
 
-Gözüyle sayfa değiştirir.
+* JWT
+* Refresh Tokens
+* Google Login
+* Apple Login
+* Two Factor Authentication
 
-Voice Reading Companion
+Protection:
 
-AI karakter sesleri.
+* AES-256 Encryption
+* Device Fingerprinting
+* Cloudflare WAF
+* Rate Limiting
+* Secure Signed URLs
 
-Roman:
+---
 
-Her karakteri farklı seslendirebilir.
+# Monetization
 
-Global Reading Rooms
+## Oculio Free
 
-Canlı odalar.
+* Eye Tracking
+* Social Feed
+* Standard Reading
+* 3 Document Uploads
 
-Aynı kitabı okuyan insanlar:
+---
 
-Birlikte okuyabilir.
+## Oculio Premium
 
-Yorum yapabilir.
+Unlimited:
 
-Tartışabilir.
+* Document Uploads
+* Cloud Storage
+* OCR
+* AI Coach
+* Emotion Reading
+* Ambient Reading
+* Advanced Statistics
+* Book Universe
+* Premium Themes
 
-SONUÇ
+---
 
-Oculio artık bir uygulama değildir.
+## Marketplace
 
-Bu proje:
+Users can:
 
-Akıllı okuma sistemi
-Dijital kütüphane
-Sosyal ağ
-AI öğretmen
-Marketplace
-Bulut depolama
-Göz takip teknolojisi
+* Sell Books
+* Sell Collections
+* Publish Research
+* Share Premium Content
 
-birleşiminden oluşan,
+Oculio receives marketplace commissions.
 
-dünyaya açılabilecek milyar dolarlık potansiyele sahip tam teşekküllü bir Intelligent Reading Ecosystem olarak konumlandırılmıştır.
+---
+
+# Enterprise
+
+Corporate solutions:
+
+* Corporate Libraries
+* Employee Training Materials
+* Knowledge Management
+* Reading Analytics
+* Internal Document Sharing
+
+---
+
+# Roadmap
+
+## Phase 1
+
+Core Reading Engine
+
+* Eye Tracking
+* Smart Scroll
+* Smart Pause
+* PDF / EPUB Support
+* Vault
+
+---
+
+## Phase 2
+
+Social Platform
+
+* Social Feed
+* Reading Rooms
+* Spoiler Shield
+* Gifting
+
+---
+
+## Phase 3
+
+Artificial Intelligence
+
+* Lumentum AI Coach
+* Emotion Reading
+* OCR Engine
+* Book Universe
+
+---
+
+## Phase 4
+
+Future Technologies
+
+* AI Character Voices
+* Oculio Glass
+* XR Reading
+* Spatial Reading Experience
+
+---
+
+# Future Vision
+
+## Oculio Glass™
+
+Augmented Reality Reading.
+
+Books appear directly in your field of view.
+
+Controlled entirely with your eyes.
+
+---
+
+## AI Character Voices™
+
+Every character:
+
+* Unique Voice
+* Unique Emotion
+* Unique Personality
+
+---
+
+## Spatial Reading
+
+Compatible with:
+
+* Apple Vision Pro
+* AR Glasses
+* XR Devices
+
+Reading becomes a spatial experience.
+
+---
+
+# Final Statement
+
+Oculio is not an application.
+
+It is:
+
+* An Intelligent Reading Engine
+* An AI Reading Coach
+* A Social Reading Network
+* A Personal Knowledge Vault
+* A Digital Marketplace
+* A Future Reading Ecosystem
+
+The future of reading begins here.
+
+**Read With Your Eyes. Learn With AI. Share With The World.**
